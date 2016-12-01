@@ -49,6 +49,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 Plug 'scrooloose/nerdtree'
 Plug 'flazz/vim-colorschemes'
+Plug 'elixir-lang/vim-elixir'
 
 
 if filereadable(expand("~/.vimrc.bundles.local"))
