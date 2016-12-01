@@ -48,6 +48,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 Plug 'scrooloose/nerdtree'
+Plug 'flazz/vim-colorschemes'
 
 
 if filereadable(expand("~/.vimrc.bundles.local"))
