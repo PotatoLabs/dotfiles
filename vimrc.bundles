@@ -51,7 +51,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'elixir-lang/vim-elixir'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdcommenter'
-
+Plug 'Chiel92/vim-autoformat'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local

@@ -160,3 +160,15 @@ colorscheme molokai
 
 nnoremap <C-g> :NERDTreeToggle<cr>
 nnoremap <C-f> :NERDTreeFind<cr>
+
+" Resize window splits
+nnoremap <Left>  3<C-w><
+nnoremap <Right> 3<C-w>>
+
+" up/down on displayed lines, not real lines. More useful than painful.
+:setf nowrap
+noremap k gk
+noremap j gj
+
+" auto format when saving
+au BufWrite * :Autoformat

@@ -25,3 +25,8 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	name = Edmund Mai
+	email = edmundmai@gmail.com
+[pull]
+	rebase = true
