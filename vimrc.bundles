@@ -54,6 +54,8 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'lervag/vimtex'
+Plug 'sbdchd/neoformat'
+Plug 'fleischie/vim-styled-components'
 " Plug 'Chiel92/vim-autoformat'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
