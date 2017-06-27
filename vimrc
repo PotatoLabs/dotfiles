@@ -178,3 +178,6 @@ noremap j gj
 let g:jsx_ext_required = 0
 
 " prettier
+
+" copy and paste to clipboard
+set clipboard=unnamed
