@@ -57,6 +57,7 @@ Plug 'lervag/vimtex'
 Plug 'sbdchd/neoformat'
 Plug 'fleischie/vim-styled-components'
 Plug 'tomlion/vim-solidity'
+Plug 'tommcdo/vim-fubitive'
 " Plug 'Chiel92/vim-autoformat'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
