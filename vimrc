@@ -182,7 +182,7 @@ let g:jsx_ext_required = 0
 let g:prettier#config#trailing_comma = 'all'
 
 " copy and paste to clipboard
-" set clipboard=unnamed
+set clipboard=unnamed
 
 " format on save
 augroup fmt

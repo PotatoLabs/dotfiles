@@ -1,5 +1,6 @@
 # ensure dotfiles bin directory is loaded first
 PATH="$HOME/.bin:/usr/local/sbin:$PATH"
+PATH="$HOME/.nvm/versions/node/v9.10.0/bin:$PATH"
 
 # load rbenv if available
 if command -v rbenv >/dev/null; then
