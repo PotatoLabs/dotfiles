@@ -14,6 +14,10 @@ set autowrite     " Automatically :write before running commands
 set ignorecase
 set smartcase
 
+" prettier
+let g:prettier#config#trailing_comma = 'es5'
+let g:prettier#config#single_quote = 'true'
+
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
@@ -167,9 +171,9 @@ nnoremap <Left>  3<C-w><
 nnoremap <Right> 3<C-w>>
 
 " up/down on displayed lines, not real lines. More useful than painful.
-:setf nowrap
-noremap k gk
-noremap j gj
+" setf nowrap
+" noremap k gk
+" noremap j gj
 
 " autocmd FileType javascript set formatprg=prettier\ --stdin
 " auto format when saving
@@ -177,9 +181,6 @@ noremap j gj
 
 " adds jsx to js files
 let g:jsx_ext_required = 0
-
-" prettier
-let g:prettier#config#trailing_comma = 'all'
 
 " copy and paste to clipboard
 set clipboard=unnamed

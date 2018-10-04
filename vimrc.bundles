@@ -60,6 +60,7 @@ Plug 'tomlion/vim-solidity'
 Plug 'tommcdo/vim-fubitive'
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Plug 'Chiel92/vim-autoformat'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
