@@ -182,7 +182,9 @@ let g:jsx_ext_required = 0
 set clipboard=unnamed
 
 " prettier
+let g:prettier#autoformat = 0
 let g:prettier#config#trailing_comma = 'es5'
 let g:prettier#config#single_quote = 'false'
-let g:prettier#autoformat = 0
+let g:prettier#config#bracket_spacing = 'true'
+
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
