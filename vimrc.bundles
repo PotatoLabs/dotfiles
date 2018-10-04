@@ -54,13 +54,13 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'lervag/vimtex'
-Plug 'sbdchd/neoformat'
 Plug 'fleischie/vim-styled-components'
 Plug 'tomlion/vim-solidity'
 Plug 'tommcdo/vim-fubitive'
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+" Plug 'sbdchd/neoformat'
 " Plug 'Chiel92/vim-autoformat'
 
 if filereadable(expand("~/.vimrc.bundles.local"))

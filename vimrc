@@ -14,10 +14,6 @@ set autowrite     " Automatically :write before running commands
 set ignorecase
 set smartcase
 
-" prettier
-let g:prettier#config#trailing_comma = 'es5'
-let g:prettier#config#single_quote = 'true'
-
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
@@ -185,8 +181,8 @@ let g:jsx_ext_required = 0
 " copy and paste to clipboard
 set clipboard=unnamed
 
-" format on save
-augroup fmt
-  autocmd!
-  autocmd BufWritePre * Neoformat
-augroup END
+" prettier
+let g:prettier#config#trailing_comma = 'es5'
+let g:prettier#config#single_quote = 'false'
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
