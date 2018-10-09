@@ -167,9 +167,9 @@ nnoremap <Left>  3<C-w><
 nnoremap <Right> 3<C-w>>
 
 " up/down on displayed lines, not real lines. More useful than painful.
-" setf nowrap
-" noremap k gk
-" noremap j gj
+set nowrap
+noremap k gk
+noremap j gj
 
 " autocmd FileType javascript set formatprg=prettier\ --stdin
 " auto format when saving
