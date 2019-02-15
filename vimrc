@@ -187,4 +187,11 @@ let g:prettier#config#trailing_comma = 'es5'
 let g:prettier#config#single_quote = 'false'
 let g:prettier#config#bracket_spacing = 'true'
 
+" set filetypes as typescript.tsx
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx
+
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
+" autocmd BufWritePre *.js,*.mjs,*.ts,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
+
+" dark red
+hi tsxTagName guifg=#E06C75
