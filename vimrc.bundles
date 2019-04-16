@@ -59,7 +59,6 @@ Plug 'tommcdo/vim-fubitive'
 Plug 'leafgarland/typescript-vim'
 Plug 'mxw/vim-jsx'
 Plug 'peitalin/vim-jsx-typescript'
-Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'reasonml-editor/vim-reason-plus'
 " Plug 'sbdchd/neoformat'
