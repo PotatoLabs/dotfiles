@@ -61,6 +61,8 @@ Plug 'mxw/vim-jsx'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'reasonml-editor/vim-reason-plus'
+Plug 'alvan/vim-closetag'
+Plug 'jiangmiao/auto-pairs'
 " Plug 'sbdchd/neoformat'
 " Plug 'Chiel92/vim-autoformat'
 

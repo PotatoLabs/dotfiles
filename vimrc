@@ -70,7 +70,9 @@ if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
 
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag -Q -l --nocolor --hidden -g "" %s'
+  " let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+  let g:ctrlp_custom_ignore = '\v[\/](node_modules|Pods|build|dist)|(\.(swp|ico|git|svn))$'
+  " let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
 
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
@@ -195,3 +197,9 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
 
 " dark red
 hi tsxTagName guifg=#E06C75
+
+let g:NERDTreeWinSize = 30
+
+" vim-closetag
+let g:closetag_filenames = '*.html,*.jsx,*.tsx'
+let g:closetag_emptyTags_caseSensitive = 1
